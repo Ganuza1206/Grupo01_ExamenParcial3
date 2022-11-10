@@ -3,47 +3,48 @@ Resolución del Examen Parcial 3 de Ingeniería de Datos <br>
 
 Descripción del Dataset de la base transaccional del sistema de vuelos Gamatrón <br>
 
-Campo	                            Descripción <br>
-Year	                            Año de la fecha de vuelo <br>
-Quarter	                            Trimestre de la fecha de vuelo <br>
-Month	                            Mes de la fecha de vuelo <br>
-DayOfmonth	                        Día del mes de la fecha de vuelo <br>
-DayOfWeek	                        Día de la semana de la fecha de vuelo <br>
-Flightdate	                        Fecha del vuelo <br>
-OperatingAirline	                Código de la aerolínea que opera el vuelo <br>
-Flight_Number_Operating_Airline	    Número de vuelo <br>
-OriginAirportID	                    Código del aeropuerto de origen <br>
-OriginCityName	                    Ciudad del aeropuerto de origen <br>
-OriginStateName	                    Estado del aeropuerto de origen <br>
-DestAirportID	                    Código del aeropuerto de destino <br>
-DestCityName	                    Ciudad del aeropuerto de destino <br>
-DestStateName	                    Estado del aeropuerto de destino <br>
-CRSDepTime	                        Hora de salida del vuelo programada <br>
-DepTime	                            Hora real de salida del vuelo <br>
-DepDel15	                        Indicador de retraso en despegue por más de 15 minutos <br>
-TaxiOut	                            Tiempo de rodaje antes de despegue en minutos <br>
-WheelsOff	                        Hora de despegue de tierra <br>
-WheelsOn	                        Hora de aterrizaje en tierra <br>
-TaxiIn	                            Tiempo de rodaje después de aterrizaje en minutos <br>
-CRSArrTime	                        Hora de aterrizaje programada <br>
-ArrTime	                            Hora real de aterrizaje <br>
-ArrDel15	                        Indicador de retraso en aterrizaje por más de 15 minutos <br>
-Cancelled	                        Indicador si el vuelo fue cancelado <br>
-Diverted	                        Indicador si el vuelo fue diferido/desviado <br>
-DivAirportLandings	                Cantidad de aterrizajes en aeropuertos para vuelos desviados/diferidos <br>
-DivReachedDest	                    Indicador de vuelo diferido/desviado que sí llegó a su destino <br>
-DivActualElapsedTime	            Tiempo de vuelo diferido/desviado que sí llegó a su destino en minutos <br>
-DivArrDelay	                        Diferencia en minutos entre la hora programada y la hora real de llegada de vuelo diferido/desviado que sí llegó a su destino <br>
-DivDistance	                        Distancia en millas del destino de llegada con el destino final de vuelo diferido/desviado <br>
-Flights	                            Cantidad de vuelo (1 por defecto) <br>
+Year: 	                            Año de la fecha de vuelo <br>
+Quarter:	                        Trimestre de la fecha de vuelo <br>
+Month:	                            Mes de la fecha de vuelo <br>
+DayOfmonth:	                        Día del mes de la fecha de vuelo <br>
+DayOfWeek:	                        Día de la semana de la fecha de vuelo <br>
+Flightdate:	                        Fecha del vuelo <br>
+OperatingAirline:	                Código de la aerolínea que opera el vuelo <br>
+Flight_Number_Operating_Airline:	Número de vuelo <br>
+OriginAirportID:	                Código del aeropuerto de origen <br>
+OriginCityName:	                    Ciudad del aeropuerto de origen <br>
+OriginStateName:	                Estado del aeropuerto de origen <br>
+DestAirportID:	                    Código del aeropuerto de destino <br>
+DestCityName:	                    Ciudad del aeropuerto de destino <br>
+DestStateName:	                    Estado del aeropuerto de destino <br>
+CRSDepTime:	                        Hora de salida del vuelo programada <br>
+DepTime:	                        Hora real de salida del vuelo <br>
+DepDel15:	                        Indicador de retraso en despegue por más de 15 minutos <br>
+TaxiOut:	                        Tiempo de rodaje antes de despegue en minutos <br>
+WheelsOff:	                        Hora de despegue de tierra <br>
+WheelsOn:	                        Hora de aterrizaje en tierra <br>
+TaxiIn:	                            Tiempo de rodaje después de aterrizaje en minutos <br>
+CRSArrTime:	                        Hora de aterrizaje programada <br>
+ArrTime:	                        Hora real de aterrizaje <br>
+ArrDel15:	                        Indicador de retraso en aterrizaje por más de 15 minutos <br>
+Cancelled:	                        Indicador si el vuelo fue cancelado <br>
+Diverted:	                        Indicador si el vuelo fue diferido/desviado <br>
+DivAirportLandings:	                Cantidad de aterrizajes en aeropuertos para vuelos desviados/diferidos <br>
+DivReachedDest:	                    Indicador de vuelo diferido/desviado que sí llegó a su destino <br>
+DivActualElapsedTime:	            Tiempo de vuelo diferido/desviado que sí llegó a su destino en minutos <br>
+DivArrDelay:	                    Diferencia en minutos entre la hora programada y la hora real de llegada de vuelo diferido/desviado que sí llegó a su destino <br>
+DivDistance:	                    Distancia en millas del destino de llegada con el destino final de vuelo diferido/desviado <br>
+Flights:	                        Cantidad de vuelo (1 por defecto) <br>
 Distance	                        Distancia en millas recorridas durante el vuelo <br>
-CarrierDelay	                    Retraso en minutos debido a la aerolínea <br>
-WeatherDelay	                    Retraso en minutos debido al clima <br>
-NASDelay	                        Retraso en minutos debido al Sistema Nacional de Espacio Aéreo <br>
-SecurityDelay	                    Retraso en minutos debido a seguridad <br>
-LateAircraftDelay	                Retraso en minutos debido a la aeronave <br>
+CarrierDelay:	                    Retraso en minutos debido a la aerolínea <br>
+WeatherDelay:	                    Retraso en minutos debido al clima <br>
+NASDelay:	                        Retraso en minutos debido al Sistema Nacional de Espacio Aéreo <br>
+SecurityDelay:	                    Retraso en minutos debido a seguridad <br>
+LateAircraftDelay:	                Retraso en minutos debido a la aeronave <br>
 
 ## Diseño de la solución para el DataWarehouse <br>
+
+Al analizar la base de datos transaccional se sigue la metodología de los 4 pasos para crear el modelo del Datawarehouse <br>
 
 1. Proceso de negocio identificado: incidencias de vuelos <br>
 2. Nivel de granularidad: <br>
@@ -70,11 +71,10 @@ Se deben visualizar las incidencias de vuelos (cancelaciones, retrasos y diferid
 
 ## Preparación de data en Talend <br>
 
-Además de todas las ETL para el procesamiento de la data en la herramienta talend, se debe crear una base de datos temporal que <br>
-servirá para tratar los SCD. <br>
+Todos los datos provenientes de la base de datos transaccional que sean parte del dataset van a ser procesados por medio de la herramienta Talend, 
+y almacenados en las locaciones correspondientes en S3 para adecuarlos al Datawarehouse alojado en Redshift. Adicional a dichas operaciones se debe ejecutar el siguiente paso: <br>
 
-Pasos: <br>
-1. Crear una BD en Microsoft SQL Server llamada: "Grupo01_Parcial3" <br>
+### Crear una BD en Microsoft SQL Server llamada: "Grupo01_Parcial3" <br>
 Donde se guardará temporalmente la información para asignarle una subrogate Key y los SCD a las respectivas tablas de Dimensión.
 
 Script de la base de datos a ejecutar:
@@ -117,3 +117,101 @@ CREATE TABLE dbo.DimAirline
 GO
 
 ```
+## Script del Datawarehouse en Redshift <br>
+
+El script generado para redshift es el siguiente: <br>
+
+```
+
+CREATE DATABASE PARCIAL3s3;
+
+
+CREATE TABLE dimairline(
+    airline_key int PRIMARY KEY,
+    airline_id Varchar(25),
+    code Varchar(50) distkey,
+    description Varchar (100)
+);
+
+---esta si
+CREATE TABLE dimdate (
+  date_key int PRIMARY KEY distkey,
+  full_date Varchar (25),
+  day_of_week int,
+  day_num_in_month int,
+  day_num_overall int,
+  day_name Varchar (25),
+  day_abbrev Varchar (25),
+  weekday_flag Varchar (1),
+  week_num_in_year int,
+  week_num_overall int,
+  week_begin_date Varchar (25),
+  week_begin_date_key int,
+  month int,
+  month_num_overall int,
+  month_name Varchar (25),
+  month_abbrev Varchar (25),
+  quarter int,
+  year int,
+  yearmo int,
+  last_day_in_month_flag Varchar(5),
+  same_day_year_ago Varchar(25)
+)sortkey (date_key, month);
+
+CREATE TABLE factflight (
+    date_key int DISTKEY,
+    airline_key int,
+    flight_number varchar(25),
+    origin_air_port_id int,
+    dest_air_port_id int,
+    origin_city_name varchar (100),
+    origin_state_name varchar (100),
+    dest_city_name varchar (100),
+    dest_state_name varchar (100),
+    distance_miles int,
+    programmed_dep_time int,
+    real_dep_time int,
+    dep_time_delay int,
+    dep_delay_up_15 int,
+    dep_delay_description varchar (10),
+    taxi_out_time int,
+    taxi_out_up_15 varchar (10),
+    wheels_off int,
+    wheels_on int,
+    time_on_air int,
+    taxi_in_time int,
+    taxi_in_up_15 varchar (10),
+    programmed_arr_time int,
+    real_arr_time int,
+    arr_time_delay int,
+    arr_delay_up_15 varchar (10),
+    arr_delay_description varchar (10),
+    cancelled_info varchar (10),
+    diverted_info varchar (10),
+    number_diverted_airport_landings int,
+    diverted_reached_on_time varchar (10),
+    diverted_actual_elapsed_time int,
+    diverted_delay int,
+    carrier_delay int,
+    weather_delay int,
+    nas_delay int,
+    security_delay int,
+    late_air_craft_delay int,
+    diverted_distance_miles int,
+    flights_qty int,
+    total_time_delay int,
+    FOREIGN KEY (date_key) REFERENCES dimdate(date_key),
+    FOREIGN KEY (airline_key) REFERENCES dimairline(airline_key)
+) sortkey (date_key, airline_key);
+
+```
+
+## Visualización de los elementos de AWS (S3 y Redshift) <br>
+
+Toda la data procesada estará situada en S3, dependiendo del estado de procesamiento en que se encuentre puede ubicarse en un bucket ya sea en Raw, Stage o Presentation. <br>
+y la base del DataWarehouse estará en Redshift.  <br>
+
+Las credenciales de usuario para visualizar dichos componentes son: <br>
+URL: https://717949482576.signin.aws.amazon.com/console <br>
+Usuario: parcial3s3 <br>
+Contraseña: Parcial3s3 <br>
