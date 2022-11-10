@@ -50,7 +50,19 @@ LateAircraftDelay	                Retraso en minutos debido a la aeronave
 Incidencias de vuelos por día.
 Se deben visualizar las incidencias de vuelos (cancelaciones, retrasos y diferidos) en función de las causas del incidente, ya sea retrasos en salidas, llegadas, durante el vuelo, inconvenientes climáticos, técnicos, de seguridad o de aerolínea, por día.
 3. Dimensiones:
+    DimDate: Tabla de dimensión de fechas. <br>
+    DimAirline: Tabla de dimensión de aerolíneas. <br>
+    FactFlight: Tabla de hechos de vuelos. <br>
 
-DimDate: Tabla de dimensión de fechas.
-DimAirline: Tabla de dimensión de aerolíneas.
-FactFlight: Tabla de hechos de vuelos.
+![Diagrama del Datawarehouse](https://github.com/Ganuza1206/Grupo01_ExamenParcial3/blob/main/DiagramaDWImagen.drawio.png)
+
+4.	Identificar hechos:
+    Métricas:
+•	Cantidad de vuelos cancelados en una fecha determinada.
+•	Cantidad de vuelos diferidos en una fecha determinada.
+•	Cantidad de vuelos retrasados en una fecha determinada.
+•	Total de tiempo en retrasos de vuelos en una fecha determinada
+•	Cantidad de vuelos retrasados en una fecha determinada, según sus causas.
+•	Total de tiempo en retrasos de vuelos en una fecha determinada, según sus causas.
+•	Cantidad de incidencias por vuelo en una fecha determinada.
+•	Total de tiempo de las incidencias por vuelo para una fecha determinada.
