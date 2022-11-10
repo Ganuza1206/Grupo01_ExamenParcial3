@@ -1,5 +1,5 @@
 # Grupo01_ExamenParcial3
-<span style="color:green">Resolución del Examen Parcial 3 de Ingeniería de Datos <br></span>
+Resolución del Examen Parcial 3 de Ingeniería de Datos <br>
 
 Descripción del Dataset de la base transaccional del sistema de vuelos Gamatrón <br>
 
